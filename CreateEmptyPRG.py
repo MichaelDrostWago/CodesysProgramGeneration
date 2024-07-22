@@ -45,7 +45,7 @@ PROGRAM """
     contentString = contentString + """VAR_INPUT
     //Name              Type            Init                                Comment""" 
     if enable == True: contentString = contentString + """
-    xEnable             : bool;                                             // Enable Module"""
+    xEnable             : bool;                                             // Enable Program"""
     contentString = contentString + """            
 END_VAR
 VAR 
