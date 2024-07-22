@@ -118,7 +118,7 @@ proj = projects.primary
 
 
 print("Generate PRG")
-moduleName = system.ui.query_string("Module name")
+moduleName = system.ui.query_string("Modulename")
 proj.create_folder(moduleName)
 folder = proj.find(moduleName, recursive = True)[0]
 
@@ -142,24 +142,3 @@ initMethod.textual_implementation.replace(INIT_METHOD)
 
 
 print("DONE!")
-#
-#
-#print("Now we query a multi line string")
-#res = system.ui.query_string("Please tell me a nice story about your life!", multi_line=True)
-#if (res):
-#    print("Huh, that has been a long text, at least %s characters!" % len(res))
-#else:
-#    print("Hey, don't be lazy!")
-#
-#print("Username and passwort prompts...")
-#res = system.ui.query_password("Please enter your favourite password!", cancellable=True)
-#if res:
-#    print("Huh, it's very careless to tell me your favourite password '%s'!" % res)
-#else:
-#    print("Ok, if you don't want...")
-#
-#res = system.ui.query_credentials("Now, for real...")
-#if res:
-#    print("Username '%s' and password '%s'" % res) # res is a 2-tuple
-#else:
-#    print("Sigh...")

@@ -136,7 +136,7 @@ proj = projects.primary
 
 
 print("Generate default Module")
-moduleName = system.ui.query_string("Module name")
+moduleName = system.ui.query_string("Modulename")
 
 # create basic module structure
 proj.create_folder(moduleName)

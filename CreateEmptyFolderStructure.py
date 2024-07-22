@@ -4,8 +4,8 @@ from __future__ import print_function
 proj = projects.primary
 
 
-print("Generate default Module")
-res = system.ui.query_string("Module name")
+print("Generate default structure")
+res = system.ui.query_string("Modulename")
 
 proj.create_folder(res)
 folder = proj.find(res, recursive = True)[0]

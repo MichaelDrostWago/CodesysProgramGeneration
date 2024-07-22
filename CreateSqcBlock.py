@@ -199,7 +199,7 @@ proj = projects.primary
 
 
 print("Generate default Module")
-moduleName = system.ui.query_string("Module name")
+moduleName = system.ui.query_string("Modulename")
 
 ########################################################################### FOLDER HANDLING
 # create basic module structure
@@ -212,7 +212,7 @@ folder.create_folder('VIS')
 
 # create options for module
 print("Generate options for module")
-res = system.ui.select_many("Please select one or more options", PromptChoice.OKCancel, PromptResult.OK, ("Ack", "Mode", "ST_Config", "VISU_ITF", "SQC in FB name"))
+res = system.ui.select_many("Please select one or more options", PromptChoice.OKCancel, PromptResult.OK, ("Ack", "Mode", "ST_Config", "ST_Vis", "SQC in FB name"))
 print("The returned result is: '%s'" % str(res)) # res is a tuple
 if res[1][2]:   # choosen config option
     stConfig = createName('ST_CONF', moduleName)
