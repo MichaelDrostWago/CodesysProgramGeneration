@@ -234,7 +234,7 @@ optionSqc  = res[1][4]
 ########################################################################### ENUM AND SQC GENERATION
 #read input 
 print("Name your Steps + Comment")
-res = system.ui.query_string("Name your Steps + Comment ", multi_line=True)
+res = system.ui.query_string("Name your step + comment, one step per line, stepname without spaces", multi_line=True)
 #create enum
 enum = folder.create_dut(createName('ENUM_SQC', moduleName), DutType.Enumeration)
 enum.textual_declaration.replace(generateSequenceEnum(createName('ENUM_SQC', moduleName), res))
