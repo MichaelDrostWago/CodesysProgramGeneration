@@ -1,4 +1,4 @@
-# Automaten Code Generation for Codesys
+# Automated Code Generation for Codesys
 With this scripts you can generate your own Module "frames". This is an example in how to work with Python-Scripts in CODESYS.
 Following features are availabe:
 ### CreateEmptyFolderStructure
