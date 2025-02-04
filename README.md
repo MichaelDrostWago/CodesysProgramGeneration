@@ -31,3 +31,12 @@ You can choose following options:
 ![image](https://github.com/user-attachments/assets/f8494d05-27b4-432c-bc42-05a6e6e83c19)
 ![image](https://github.com/user-attachments/assets/61facfaf-dcaa-47f9-a00d-72329c835dd0)
 ![image](https://github.com/user-attachments/assets/5612ce02-53ba-49ee-a248-57925c217e03)
+
+
+### GetDocumentation
+This exports all of you librarys and POU, to document you actual state of the project.
+It is example and not all functions are integrated.
+
+### ExportXML and testXmlHandling
+With ExportXml.py you can export your whole project to an XML-file. Then you can iterate trough this with testXmlHandling.py.
+You can also merge the two projects to get you information directly from your project. The Handling of the XML-file is much easier then the handling with the Built-In Codesys functions.
