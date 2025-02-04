@@ -34,8 +34,10 @@ You can choose following options:
 
 
 ### GetDocumentation
-This exports all of you librarys and POU, to document you actual state of the project.
+This exports all of your librarys and POUs, to document your actual state of the project. The File is then located in the projectfolder.
 It is example and not all functions are integrated.
+![image](https://github.com/user-attachments/assets/ff0bce01-cb35-46e1-b616-43f2183b29c2)
+
 
 ### ExportXML and testXmlHandling
 With ExportXml.py you can export your whole project to an XML-file. Then you can iterate trough this with testXmlHandling.py.
