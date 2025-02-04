@@ -50,7 +50,7 @@ def createDocument(filename, projectpath, project_name):
 
 print("--- Creating Documentation Files ---")
 
-filePath = createDocument("Docoumentation", projectpath, "Test")
+filePath = createDocument("XML", projectpath, "Test")
 print("--- at Path: "+filePath+" ---")
 
 
